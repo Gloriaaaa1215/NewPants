@@ -3,6 +3,19 @@
     background-color: black;
     
 }
+.nav-link {
+    color: white;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 30px;
+}
+
+ .nav-item.active .nav-link,
+.nav-item .nav-link:active,
+.nav-item .nav-link:focus,
+ .nav-item:hover .nav-link {
+    color: #f5d43a;
+}
+
 #carouselExampleControls{
     background-image: url(../images/dotbg.jpg);
     background-repeat: repeat;
@@ -22,6 +35,11 @@
 .cardiv{
     max-width: 600px;
     height: auto;
+}
+
+.carimg{
+    max-height: 500px;
+    width: auto;
 }
 .cardes{
    padding-top: 40px;
@@ -50,3 +68,8 @@
 .tagname{
         font-family: 'Special Elite', cursive;
     }
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
