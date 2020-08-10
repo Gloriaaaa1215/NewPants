@@ -159,9 +159,9 @@ footer{
     
     }
     .tag{
-        font-size: 50px;
-        line-height: 50px;
-        height: 200px;
+        font-size: 40px;
+        line-height: 40px;
+        height: 150px;
     }
     .carinfo{
         margin: 20px 0;
@@ -192,8 +192,8 @@ footer{
  /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
     .tag{
-        font-size: 40px;
-        line-height: 40px;
+        font-size: 35px;
+        line-height: 35px;
     }
     .cartitle{
         font-size: 30px;
@@ -205,5 +205,8 @@ footer{
         font-size: 20px;
         line-height: 20px;
     }
-    
+    .carimg{
+        max-height: 250px;
+        width: auto;
+    }
  }
