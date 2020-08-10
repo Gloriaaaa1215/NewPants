@@ -12,11 +12,16 @@
  .nav-item.active .nav-link,
 .nav-item .nav-link:active,
 .nav-item .nav-link:focus,
- .nav-item:hover .nav-link {
+ .nav-item:hover .nav-link ,
+ .fa:hover,
+ .e-address:hover{
     color: #f5d43a;
+    text-decoration: none;
 }
 
-#carouselExampleControls{
+
+
+#carouselExampleControls, .events{
     background-image: url(../images/dotbg.jpg);
     background-repeat: repeat;
     padding: 40px;
@@ -32,10 +37,7 @@
     font-size: 100px;
     line-height: 100px;
 }
-.cardiv{
-    max-width: 600px;
-    height: auto;
-}
+
 
 .carimg{
     max-height: 500px;
@@ -52,6 +54,7 @@
     background-image: url(../images/tag1.png);
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
     height: 300px;
     width: auto;
     text-align: center;
@@ -60,16 +63,147 @@
 }
 .taginfo{
     margin: 0 auto;
+    max-height: 300px;
 }
 .tagtitle{
     font-family: 'Londrina Solid', cursive;
     }
 
 .tagname{
-        font-family: 'Special Elite', cursive;
+    font-family: 'Special Elite', cursive;
     }
 
 .carousel-control-next,
 .carousel-control-prev {
     filter: invert(100%);
 }
+
+/*********** kwicks ************/
+
+.album{
+    background-color: #000000;
+    padding: 50px;
+}
+.kwicks {
+    width: 905px;
+    height: 450px;
+    margin: 0 auto;
+}
+.kwicks > li {
+    height: 450px;
+    background-color: #ccc;
+    /* overridden by kwicks but good for when JavaScript is disabled */
+    margin-left: 5px;
+    float: left;
+}
+
+
+/*********** events ************/
+.event{
+    font-family: 'Londrina Solid', cursive;
+    font-size: 40px;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+
+.e-date{
+    font-family: 'Special Elite', cursive;
+    font-size: 24px;
+    line-height: 50px;
+    }
+
+.e-address{
+    font-family: 'Londrina Solid', cursive;
+    font-size: 24px;
+    line-height: 50px;
+    color: black;
+    }
+
+footer{
+    background-color: black;
+}
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+      }
+
+
+  .footer-copyright{
+      color: white;
+      font-family: 'Londrina Solid', cursive;
+    font-size: 30px;
+    line-height: 80px;
+    text-transform: uppercase;
+  }
+
+
+
+
+
+
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .nav-link {
+        font-size: 20px;
+    }
+
+    #carouselExampleControls, .events{
+     
+        padding: 10px;
+    
+    }
+    .tag{
+        font-size: 50px;
+        line-height: 50px;
+        height: 200px;
+    }
+    .carinfo{
+        margin: 20px 0;
+        text-align: center;
+    }
+    .cartitle{
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .cardes{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .carimg{
+        margin: 0 auto;
+    }
+
+    .fa{
+        font-size: 20px;
+    }
+    .footer-copyright{
+        font-size: 20px;
+        line-height: 40px;
+    }
+ }
+
+ /* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .tag{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .cartitle{
+        font-size: 30px;
+        line-height: 30px;
+        margin: 0 auto;
+    }
+
+    .cardes{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    
+ }
