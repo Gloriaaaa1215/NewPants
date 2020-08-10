@@ -24,7 +24,7 @@
 #carouselExampleControls, .events{
     background-image: url(../images/dotbg.jpg);
     background-repeat: repeat;
-    padding: 40px;
+    padding: 100px;
 
 }
 .car{
@@ -82,7 +82,7 @@
 
 .album{
     background-color: #000000;
-    padding: 50px;
+    padding: 100px;
 }
 .kwicks {
     width: 905px;
@@ -179,7 +179,9 @@ footer{
     .carimg{
         margin: 0 auto;
     }
-
+    .album{
+        padding: 30px;
+    }
     .fa{
         font-size: 20px;
     }
